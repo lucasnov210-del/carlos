@@ -1,4 +1,4 @@
-import {Homepage, Routes, Route, useLocation} from 'react-router-dom';
+import {HashRouter, Routes, Route, useLocation} from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -22,7 +22,7 @@ function AnimatedRoutes() {
 
 export default function App() {
     return(
-        <Homepage>
+        <HashRouter>
             <div className='flex flex-col min-h-screen bg-gray-50 text-gray-900 dark:bg-slate-900 dark:text-gray-100 transition-colors duration-300'>
                 
                 <Navbar />
@@ -32,7 +32,7 @@ export default function App() {
 
                 <Footer />
             </div>
-        </Homepage>
+        </HashRouter>
 
     );
 }
