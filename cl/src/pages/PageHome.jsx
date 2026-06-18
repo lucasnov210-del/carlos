@@ -42,7 +42,7 @@ export default function PageHome( ){
                     <div className='relative w-48 h-48 sm:w-64 sm:h-64 flex-shrink-0'>
                         <div className='absolute inset-0 bg-gradient-to-tr from-blue-500 to-teal-400 rounded-2xl rotate-6 opacity-20 blur-xl'></div>
                         <div className='w-full h-full bg-gradient-to-tr from-blue-500 to-teal-400 rounded-3xl p-1 shadow-xl rotate-3 hover:rotate-0 transition-transform duration-300'>
-                            <img src="/carlos.jpg" alt="Photo de Portrait" 
+                            <img src={`${import.meta.env.BASE_URL}carlos.jpg`} alt="Photo de Portrait" 
                             className='w-full h-full object-cover rounded-[22px]'/>
                         </div>
                     </div>
