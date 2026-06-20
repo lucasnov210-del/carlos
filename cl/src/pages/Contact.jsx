@@ -62,7 +62,6 @@ export default function Contact() {
                                 <input type="text"
                                 name="name"
                                 id="name" required
-                                placeholder='Luciano CL...' 
                                 className='w-full px-4 py-3 bg-gray-50  dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white placeholder-gray-700 focus:outline-none focus:ring-2 focus-ring-blue-500/20 focus:border-blue-500 transition-all text-sm'
                                 />
                             </div>
@@ -70,8 +69,7 @@ export default function Contact() {
                                 <label htmlFor="email" className='text-sm font-medium text-gray-700 dark:text-gray-800'>Votre Email:</label>
                                 <input type="email"
                                 name="email"
-                                id="email" required
-                                placeholder='lucas@gmail.com...' 
+                                id="email" required 
                                 className='w-full px-4 py-3 bg-gray-50  dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white placeholder-gray-700 focus:outline-none focus:ring-2 focus-ring-blue-500/20 focus:border-blue-500 transition-all text-sm'
                                 />
                             </div>
@@ -80,8 +78,7 @@ export default function Contact() {
                             <label htmlFor="subject" className='text-sm font-medium text-gray-700 dark:text-gray-800'>Sujet:</label>
                             <input type="text"
                                 name="subject"
-                                id="subject" required
-                                placeholder='Proposition de projet freelance, stage, CDI.....' 
+                                id="subject" required 
                                 className='w-full px-4 py-3 bg-gray-50  dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white placeholder-gray-700 focus:outline-none focus:ring-2 focus-ring-blue-500/20 focus:border-blue-500 transition-all text-sm'
                                 />
                         </div>
@@ -89,7 +86,6 @@ export default function Contact() {
                             <label htmlFor="message" className='text-sm font-medium text-gray-700 dark:text-gray-800'>Message:</label>
                             <textarea name="message" id="message"
                             rows="5" required
-                            placeholder="Bonjour, je souhaiterais discuter d'un projet web..."
                             className='w-full px-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white placeholder-gray-700 focus:outline-none focus:ring-2 focus-ring-blue-500/20 focus:border-blue-500 transition-all text-sm'>
                             </textarea>
                         </div>
