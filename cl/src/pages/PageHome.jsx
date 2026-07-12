@@ -4,10 +4,10 @@ import {ArrowRight, Code, Layout, Database, Terminal, FileText, Sparkles} from '
 
 export default function PageHome( ){
     const skills = [
-        {icon: <Layout className='text-bluey-500' size={24}/>, title:"Front-End", desc:"React, Vite, JS(ES6+), HTML5,CSS3"},
-        {icon:<Code className='text-teal-500' size={24}/>, title:"Style & UI", desc:"Tailwind CSS v4, Responsive Design, Lucide Icons"},
-        {icon:<Database className='texte-purple-500 ' size={24}/>, title:"State & Data", desc:"React Router Dom, Context API, JSON Local"},
-        {icon:<Terminal className='text-orange-500' size={24}/>, title:"Outils", desc:"Git, Github, NPM, VScode, Versel /Netlif"}
+        {icon: <Layout className='text-bluey-500' size={24}/>, title:"Front-End", desc:"React, Vite, JavaScript(ES6+), HTML5,CSS3"},
+        {icon:<Code className='text-teal-500' size={24}/>, title:"Design & UI", desc:"Tailwind CSS v4, Responsive Design, Lucide Icons"},
+        {icon:<Database className='texte-purple-500 ' size={24}/>, title:"Back-End & Data", desc:"Node.js, Express, PostgreSQL, API REST, Context API"},
+        {icon:<Terminal className='text-orange-500' size={24}/>, title:"Outils", desc:"Git, Github, NPM, VScode, Versel"}
     ];
 
     return(
@@ -21,11 +21,13 @@ export default function PageHome( ){
                         </div>
                         <h1 className='text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-950 dark:text-white leading-tight'>
                             Bonjour, je suis <span className='bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent'>Carlos</span> <br />
-                            Développeur Front-End React.
+                            Développeur Full-Stack React/ Node.js.
                         </h1>
                         <p className='text-lg text-gray-600 dark:text-gray-400'>
-                            Passionné par la création d'interfaces web, modernes, fluides et optimisées.
-                            Je spécialise mon travail autour de l'écosystème React et du design avec Tailwind CSS.
+                            Passionné par le développement de produits numériques de bout en bout, je conçois des interfaces
+                            dynamiques, fluides et centrées sur l'utilisateur avec React. Je propulse ces expériences grâce à
+                             une architecture Back-End robuste sous Node.js, tout en assurant une gestion de données performante
+                             et sécurisée avec PostgreSQL. 
                         </p>
 
                         <div className='flex flex-wrap gap-4 justify-center md:justify-start'>
