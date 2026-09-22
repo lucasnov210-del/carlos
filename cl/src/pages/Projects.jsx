@@ -9,7 +9,8 @@ export default function Projects() {
 
     return(
         <AnimatedPage>
-            <div className='space-y-10 py-10 animate-in fade-in duration-500'>
+            <section className='fade-in duration-500'>
+                <div className='space-y-10 py-10 animate-in fade-in duration-500'>
                 <div className='space-y-4 max-w-xl'>
                     <h1 className='text-4xl font-extrabold text-gray-950 dark:text-white tracking-tight'>
                         Mes Projets
@@ -30,9 +31,41 @@ export default function Projects() {
                     ))}
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                    
+                    <div className='bg-white dark:bg-gray-800 shadow rounded-lg p-4'>
+                        <img
+                            src={`${import.meta.env.BASE_URL}taskflow.png`}
+                            alt="TaskFlow Dashboard"
+                            className='rounded mb-4'
+                          />
+
+                         <h3 className='text-xl font-bold mb-2 dark:text-white'>
+                            TaskFlow
+                         </h3>
+                         <p className='text-gray-600 dark:text-gray-300 mb-4'>
+                            Mini gestionnaire de tâches avec React, Tailwindcss v4 et PostgreSQL. CRUD complet +
+                            API REST.
+                         </p>
+                         <div className='flex gap-4'>
+                            <a
+                                 href="https://github.com/lucasnov210-del/taskFlow"
+                                 target='_blank'
+                                 className='bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700'
+                            >
+                                Code Github
+                            </a>
+
+                            <a 
+                                href="https://taskflow-demo.vercel.app"
+                                target='_blank'
+                                className='bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700'
+                                >
+                                    Démo en ligne
+                            </a>
+                         </div>
+                    </div>
                 </div>
             </div>
+            </section>
         </AnimatedPage>
     );
 }
