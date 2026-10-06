@@ -35,7 +35,7 @@ export default function PageHome( ){
                                 Voir mes projets<ArrowRight size={18} />
                             </Link>
 
-                            <a href="#" download className='inline-flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover: bg-gray-800 text-gray-700 dark:text-gra-300 font-medium px-6 py-3 rounded-xl transition-all'>
+                            <a href="/CV_cl.pdf" download className='inline-flex items-center gap-2 border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover: bg-gray-800 text-gray-700 dark:text-gra-300 font-medium px-6 py-3 rounded-xl transition-all'>
                                 <FileText size={18} />
                                 Télécharger mon CV
                             </a>

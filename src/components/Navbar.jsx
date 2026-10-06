@@ -11,7 +11,7 @@ export default function Navbar () {
         <nav className='border-b border-gray-250 bg-white/80 dark:border-gray-800 dark:bg-slate-900/80 backdrop-blur-md sticky top-0 z-50 transition-colors duration-300'>
             <div className='max-w-5xl mx-auto px-4 h-16 flex justify-between items-center'>
                 <Link to="/" onClick={closeMenu} className='text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent'>
-                    Bema.Dev
+                    CL.Dev
                 </Link>
 
                 <div className='hidden md:flex items-center gap-6'>
