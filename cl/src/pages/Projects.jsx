@@ -82,7 +82,7 @@ export default function Projects() {
                          </p>
                          <div className='flex gap-4'>
                             <a
-                                 href="https://github.com/lucasnov210-del/L-gl-2026-groupe-04-gestion-depenses"
+                                 href="https://github.com/lucasnov210-del/L2-gl-2026-groupe-04-gestion-depenses"
                                  className='bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700'
                             >
                                 Code Github
