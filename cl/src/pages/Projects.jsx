@@ -64,6 +64,40 @@ export default function Projects() {
                             </a>
                          </div>
                     </div>
+
+                    <div className='bg-white dark:bg-gray-800 shadow rounded-lg p-4'>
+                        <img
+                            src={`${import.meta.env.BASE_URL}AjoutExpense.png`}
+                            alt="TaskFlow Dashboard"
+                            className='rounded mb-4'
+                          />
+
+                         <h3 className='text-xl font-bold mb-2 dark:text-white'>
+                            Gestion de dépense personnelle
+                         </h3>
+                         <p className='text-gray-600 dark:text-gray-300 mb-4'>
+                            Gestionnaire de dépense personnelle avec Vue JS3, Tailwindcss v4. CRUD complet  avec localStorage
+                            pour garder les dépenses après un F5.Le total se met à jour automatique lors du calcul d'une
+                            nouvelle dépense et l'on peut filtrer aussi les dépenses.
+                         </p>
+                         <div className='flex gap-4'>
+                            <a
+                                 href="https://github.com/lucasnov210-del/L-gl-2026-groupe-04-gestion-depenses"
+                                 className='bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700'
+                            >
+                                Code Github
+                            </a>
+
+                            <a 
+                                href="https://l2-gl-2026-groupe-04-gestion-depens.vercel.app"
+                                target='_blank'
+                                className='bg-green-600 text-white px-3 py-1 rounded
+                                 hover:bg-green-700'
+                                >
+                                    Démo en ligne
+                            </a>
+                         </div>
+                    </div>
                 </div>
             </div>
             </section>
